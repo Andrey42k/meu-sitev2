@@ -7,7 +7,7 @@
   
   body {
     font-family: 'Arial', sans-serif;
-    background-image: url('imagens/imagem-servico.jpg'); /* Imagem de fundo para a página de serviços */
+    background-image: url('imagens/imagem-servico.jpg'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -17,7 +17,7 @@
     color: #fff;
   }
   
-  /* Caixa de Serviços */
+
   .service-container {
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
