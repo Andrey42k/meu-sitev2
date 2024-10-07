@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-image: url('imagens/imagem-login.jpg'); /* Imagem de fundo para a página de login */
+  background-image: url('imagens/imagem-login.jpg'); 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -17,7 +17,6 @@ body {
   color: #fff;
 }
 
-/* Caixa de Login */
 .login-container {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
