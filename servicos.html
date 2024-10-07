@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços</title>
+  <link rel="stylesheet" href="servicos.css">
+</head>
+<body>
+  <div class="service-container">
+    <div class="service-box">
+      <h1>Lista de Serviços</h1>
+
+      <ul id="service-list"></ul>
+
+      <button id="logout-btn" class="btn logout-btn">Sair</button>
+    </div>
+  </div>
+
+  <script>
+    const services = [
+      'Consultoria em TI',
+      'Desenvolvimento Web',
+      'Design Gráfico',
+      'Marketing Digital'
+    ];
+
+    const serviceList = document.getElementById('service-list');
+    services.forEach(service => {
+      const li = document.createElement('li');
+      li.textContent = service;
+      serviceList.appendChild(li);
+    });
+
+    document.getElementById('logout-btn').addEventListener('click', function() {
+      window.location.href = 'index.html'; 
+    });
+  </script>
+</body>
+</html>
